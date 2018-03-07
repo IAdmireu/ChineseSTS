@@ -1,0 +1,2 @@
+synonyms==3.3.6
+absl-py==0.1.10

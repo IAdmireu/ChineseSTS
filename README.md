@@ -11,7 +11,20 @@ STS	中文文本语义相似度语料库建设
 
 项目实施起始日期：2016-06-06 06:06:06	0	0	131	66
 
+
+## 工具包评测
+
+使用 [Synonyms](https://github.com/huyingxi/Synonyms/)评测结果(链接)[https://gist.github.com/Samurais/51b40814c95db841c2ab4d98a7667418]。
+
+```
+pip install -r requirements.txt
+python app/eval.py Test.test_eval_synonyms
+```
+
+## 声明
 如有引用或使用本训练集请注明作者信息：
 唐善成, 白云悦, 马付玉. 中文语义相似度训练集. 西安科技大学.2016. https://github.com/IAdmireu/ChineseSTS
 
+```
 Tang Shancheng, Bai Yunyue, Ma Fuyu. Chinese Semantic Text Similarity Trainning Dataset. Xi'an University of Science and Technology.2016. https://github.com/IAdmireu/ChineseSTS
+```
